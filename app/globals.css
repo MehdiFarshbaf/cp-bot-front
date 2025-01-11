@@ -26,6 +26,9 @@
   .btn-rounded{
     @apply h-10 w-10 rounded-full bg-opacity-10 bg-white flex-center
   }
+  .title-page{
+    @apply font-normal text-center text-2xl sm:text-[35px] text-white mt-[172px] leading-[63px]
+  }
 }
 
 @media (prefers-color-scheme: dark) {

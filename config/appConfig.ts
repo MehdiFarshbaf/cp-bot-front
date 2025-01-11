@@ -9,3 +9,4 @@ export const menuList=[
     {id:3,label:"درباره ما",path:"/about-us"},
     {id:4,label:"تماس با ما",path:"/contact-us"},
 ]
+

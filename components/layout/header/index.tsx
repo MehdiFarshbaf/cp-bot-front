@@ -7,7 +7,8 @@ import NavHeader from "@/components/layout/header/NavHeader";
 const Header = () => {
 
     return (
-        <header className="sticky top-[49px] w-full flex-center">
+        // <header className="sticky top-[49px] w-full flex-center z-20">
+        <header className="mt-10 w-full flex-center z-20">
             <div className="mainContainer w-full flex-center">
                 <div
                     className="max-w-[724px]  w-full rounded-[74px] py-[14px] px-5 flex justify-between items-center bg-black1 ">

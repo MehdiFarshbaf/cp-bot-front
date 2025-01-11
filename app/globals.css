@@ -5,9 +5,12 @@
 :root {
   --background: #1C1C1F;
   --black1:#29292D;
+  --black2:#0F0F0F;
   --foreground: #171717;
   --brand:#EF9241;
   --gray1:#B7ADA4;
+  --gray2:#838383;
+  --gray3:#F6F6F6;
 
 }
 
@@ -27,7 +30,10 @@
     @apply h-10 w-10 rounded-full bg-opacity-10 bg-white flex-center
   }
   .title-page{
-    @apply font-normal text-center text-2xl sm:text-[35px] text-white mt-[172px] leading-[63px]
+    @apply font-normal text-center text-2xl sm:text-[35px] text-white mt-11 leading-[63px]
+  }
+  .inputClass{
+    @apply h-12 sm:h-[56px] w-full rounded-[32px] bg-gray3 px-6 outline-none py-3
   }
 }
 

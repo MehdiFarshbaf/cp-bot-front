@@ -3,8 +3,29 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #1C1C1F;
+  --black1:#29292D;
   --foreground: #171717;
+  --brand:#EF9241;
+  --gray1:#B7ADA4;
+
+}
+
+
+@layer components {
+  .mainContainer {
+    /*@apply  w-full px-4 sm:px-6 md:px-12 md:max-w-[1344px] lg:px-20 xl:max-w-[1760px] xl:px-4  2xl:px-0*/
+    @apply  w-full px-4 sm:px-6 md:px-12 lg:px-20   max-w-[1760px] mx-auto
+  }
+  .flex-center{
+    @apply flex justify-center items-center
+  }
+  .btn-primary{
+    @apply rounded-[46px] py-2.5 px-4 text-white text-sm font-medium bg-brand
+  }
+  .btn-rounded{
+    @apply h-10 w-10 rounded-full bg-opacity-10 bg-white flex-center
+  }
 }
 
 @media (prefers-color-scheme: dark) {
